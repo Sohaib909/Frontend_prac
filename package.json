@@ -5,16 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-     "start": "craco start",
-     "build": "craco build",
-     "test": "craco test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
