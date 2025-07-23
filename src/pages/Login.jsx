@@ -28,19 +28,15 @@ const LoginPage = () => {
 
       {/* Main Container */}
       <div className="relative z-10 min-h-screen flex items-center justify-center p-4">
-        <div className="w-full max-w-4xl mx-auto">
+        <div className="w-full max-w-7xl mx-auto">
           {/* Login Container */}
           <div
-            className="bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl overflow-hidden"
-            style={{
-              maxWidth: "869px",
-              height: "auto",
-              minHeight: "600px",
-            }}
+            className="bg-white/95 backdrop-blur-sm rounded-3xl shadow-2xl overflow-hidden w-full h-auto"
+            
           >
             <div className="grid grid-cols-1 lg:grid-cols-5 h-full">
               {/* Left Side - Login Form */}
-              <div className="lg:col-span-2 p-8 lg:p-12 flex flex-col justify-center bg-gray-100/90">
+              <div className="lg:col-span-2 p-8 lg:p-16 flex flex-col justify-center bg-gray-100/90">
                 <div className="max-w-sm mx-auto w-full">
                   {/* Welcome Text */}
                   <h1 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-8 text-center lg:text-left">
@@ -106,7 +102,7 @@ const LoginPage = () => {
 
                     {/* Password Links */}
                     <div className="flex justify-between text-sm">
-                      <button type="button" className="text-blue-500 hover:text-blue-600 transition-colors">
+                      <button type="button" className="text-blue- hover:text-blue-600 transition-colors">
                         Reset password?
                       </button>
                       <button type="button" className="text-blue-500 hover:text-blue-600 transition-colors">
@@ -133,7 +129,7 @@ const LoginPage = () => {
 
               {/* Right Side - Branding */}
               <div
-                className="lg:col-span-3 relative flex flex-col items-center justify-center text-white p-8 lg:p-12 min-h-[400px] lg:min-h-full"
+                className="lg:col-span-3 relative flex flex-col items-center justify-center text-white p-8 lg:p-16 min-h-[500px] lg:min-h-full"
                 style={{
                   backgroundColor: "#5576D9",
                   backgroundImage: "url('src/assets/loginbg2.png')",
@@ -142,7 +138,7 @@ const LoginPage = () => {
                   backgroundBlendMode: "overlay",
                 }}
               >
-               
+                
 
                 {/* Content */}
                 <div className="relative z-10 text-center">

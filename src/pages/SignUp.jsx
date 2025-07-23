@@ -7,11 +7,11 @@ const SignUp = () => {
   return (
    <div className="relative min-h-screen">
   {/* Background */}
-  <img
-    src={bgImage}
-    alt="Background"
-    className="absolute inset-0 w-full h-full object-cover"
-  />
+     <img
+      src={bgImage}
+      alt="Background"
+      className="absolute inset-0 w-full h-full object-cover"
+       />
 
   {/* Overlay Content */}
   <div className="relative z-10 flex items-center justify-center min-h-screen">
